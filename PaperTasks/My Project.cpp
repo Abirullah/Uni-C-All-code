@@ -162,9 +162,9 @@ void PrintBill() {
     }
 
     cout << "\nTotal Bill: " << totalBill << endl;
-   char Continue;
-   cout<<"Press any key to continue...";
-   cin>>Continue;
+    char Contine;
+    cout<<"Press any key to continue...";
+    cin>>Contine;
 }
 
 
@@ -197,3 +197,4 @@ int main() {
 
     return 0;
 }
+
