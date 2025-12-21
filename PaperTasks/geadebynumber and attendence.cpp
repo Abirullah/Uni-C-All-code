@@ -57,7 +57,7 @@ int main(){
     break;
     
     default :
-    cout <<"Sorry Hebah is failed";
+    cout <<"Sorry you are is failed";
 
   }
 
