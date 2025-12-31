@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -124,12 +123,12 @@ void PrintBill() {
     bool found = false;
 
     while (getline(in, line)) {
-        stringstream ss(line);
+        stringstream All_Info(line);
         string itemName;
         int price, quantity;
         char colon;
 
-        ss >> itemName >> colon >> price >> colon >> quantity;
+        All_Info >> itemName >> colon >> price >> colon >> quantity;
 
         if (itemName == searchItem) {
             found = true;
