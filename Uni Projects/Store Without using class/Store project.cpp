@@ -55,7 +55,7 @@ void AddItem() {
     }
 }
 
-// PRINT BILL
+
 void PrintBill() {
     system("cls");
     int totalBill = 0;

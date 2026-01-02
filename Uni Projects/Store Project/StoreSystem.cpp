@@ -161,9 +161,7 @@ void PrintBill() {
     }
 
     cout << "\nTotal Bill: " << totalBill << endl;
-   char Continue;
-   cout<<"Press any key to continue...";
-   cin>>Continue;
+  system("pause");
 }
 
 
