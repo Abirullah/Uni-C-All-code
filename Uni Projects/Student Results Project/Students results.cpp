@@ -18,7 +18,7 @@ void centerText(const char* text) {
     int width = 80;
     int padding = (width - strlen(text)) / 2;
     for (int i = 0; i < padding; i++)
-        cout << " ";
+        cout << "  ";
     cout << text << endl;
 }
 
@@ -47,7 +47,7 @@ int main() {
         system("cls");
         centerText("ENTER STUDENT DETAILS");
 
-        cout << "\n\tRoll No: ";
+        cout << "\n\tRoll No : ";
         cin >> s.rollNo;
 
         cin.ignore();
